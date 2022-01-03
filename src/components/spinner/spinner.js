@@ -1,10 +1,15 @@
 import React from 'react';
 
-import styles from './spinner.module.css';
+import  './spinner.css';
 
 const Spinner = () => {
     return (
-        <div>loading...</div>
+      <div className="lds-ellipsis">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+      </div>
     )
 }
 
